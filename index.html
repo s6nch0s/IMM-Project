@@ -1,12 +1,459 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello, this is project</h1>
-    <p>Additional description...</p>
-</body>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Manga</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <!-- <div class="logo">
+                              <a href="index.html"><img src="images/mangaLogo.png" alt="#" /></a>
+                           </div> -->
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="about.html">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="manga.html">Manga</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="product.html">Products</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">Contact Us</a>
+                              </li>
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                              </li>
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="#">Login</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+               <li data-target="#banner1" data-slide-to="3"></li>
+               <li data-target="#banner1" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption1">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                <h1>Цікаві факти про мангу</h1>
+                                 <p>
+                                    Художник, який працює над мангами, називається "Мангака".
+                                 </p>
+                                 <a href="product.html">Buy Now </a> <a href="contact.html">Contact </a>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure><img src="images/mangaBanner1.jpg" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption2">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Цікаві факти про мангу</h1>
+                                 <p>
+                                    Кожен житель Японії щорічно витрачає близько 30 доларів на мангу.
+                                 </p>
+                                 <a href="product.html">Buy Now </a> <a href="contact.html">Contact </a>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure><img src="images/mangaBanner2.jpg" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption3">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Цікаві факти про мангу</h1>
+                                 <p>
+                                    Жінки теж можуть створювати манги. На початку 70-х років група жінок під назвою "Year 24 group" мала великий вплив на цю галузь.
+                                 </p>
+                                 <a href="product.html">Buy Now </a> <a href="contact.html">Contact </a>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure><img src="images/mangabanner3_1.png" alt="#" height="1"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption4">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Цікаві факти про мангу</h1>
+                                 <p>
+                                    Кілька манга-кафе знаходяться в Японії. Читачі можуть насолоджуватися своїми приємними мангами з чашкою кави.
+                                 </p>
+                                 <a href="product.html">Buy Now </a> <a href="contact.html">Contact </a>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure><img src="images/mangaBanner4_1.jpg" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption5">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Цікаві факти про мангу</h1>
+                                 <p>
+                                    Манга — японське слово, що означає «мультфільми» або «комікси».
+                                 </p>
+                                 <a href="product.html">Buy Now </a> <a href="contact.html">Contact </a>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure><img src="images/mangaBanner5.jpg" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- three_box -->
+      <div class="three_box">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <h3>Cьонен (Shounen)</h3>
+                     <p>
+                        Цей жанр аніме зорієнтоване на хлопців у віці від 12 до 18 років. Головні ознаки жанру
+                         — це швидкий розвиток сюжету і його виражений динамізм. Аніме містять безліч комедійних сцен, ґрун
+                        тується на темах міцної чоловічої дружби, будь-якого виду суперництва в житті, спорті чи в бойових мистецтвах.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <h3>Cейнен (Seinen)</h3>
+                     <p>
+                        Сейнен це аніме і манґа, зорієнтовані на дорослих чоловіків від 18 до 30 років, але аудиторія може бу
+                        ти і старшою, спрямована на бізнесменів у віці 35-40 років.
+                         Характерними рисами цього жанру є елементи психології, сатири
+                         , еротики, також більше уваги приділяється розвитку персонажів.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <h3>Темне фентезі</h3>
+                     <p>
+                        Події темного фентезі відбуваються в суворому, жорстокому і похмурому світі, 
+                        де герої, переважно, як мінімум, неоднозначні з позиції моралі і ведуть боротьбу 
+                        лише за те, щоб світ остаточно не перетворився на пекло.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- customer -->
+      <div class="customer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Customer Review</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12-mt10">
+                  <div id="myCarousel" class="carousel slide customer_Carousel " data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-9 offset-md-3">
+                                       <div class="test_box">
+                                          <i><img src="images/cos.png" alt="#"/></i>
+                                          <h4>Ricardo Milos</h4>
+                                          <p>
+                                             Облаштування справді цікаве, пост-апокаліптична обстановка, де діти/підлітки, виховані солдатами, мають пілотувати 
+                                             меха-роботів у парах чоловік-жінка, захищаючи мобільні міста, які тримаються за виживання.
+                                             Це було цікаво в багатьох психологічних площинах. Один — це аспект дитини
+                                             /підлітка-солдата, який не є новим, але пара жінка-чоловік з аспектом підлітка омолодила об
+                                             становку. Звичайно, стало ще більше божевілля з ветераном-солдатом (який бачив багато смертей) проти на
+                                             ївних новачків, любовними інтересами [досить добре розробленими, особливо з огляду на підлітків], і тим, як ці нов
+                                             ачки вчаться та дорослішають у людей, яких вони потребують, щоб бути... .
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-9 offset-md-3">
+                                       <div class="test_box">
+                                          <i><img src="images/cos.png" alt="#"/></i>
+                                          <h4>Sandy Miller</h4>
+                                          <p>
+                                             Ця манга має дуже випадкові, але цікаві сюжети. Це ніби доповнює себе та створює хороший шматочок життя.
+                                             Історія була точно іншою, дещо передбачуваною, але все одно хорошою.
+                                             Він має дуже повільне горіння, він просто дратуватиме глядача багато разів, але ніколи не показуватиме те, що ви хочете побачити.
+                                             Художній стиль хороший.
+                                             Персонажі добре округлені та мають унікальну передісторію, у них є недоліки, але в деяких моментах вони непереможні завдяки сюжетній броні.
+                                             Персонажі іноді реагували на ситуацію не так, як реальна людина, але ось у чому суть.
+                                             Думаю, це сподобається людям, які просто хочуть добре провести час.
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-9 offset-md-3">
+                                       <div class="test_box">
+                                          <i><img src="images/cos.png" alt="#"/></i>
+                                          <h4>Samanta Rodrigez</h4>
+                                          <p>
+                                             Виховання чарівної дівчини — це дуже круто. М
+                                             ені подобаються різні здібності окремих персонажів. Мені под
+                                             обається, що в кожного з них були сили, які не були надто сильними, але
+                                              використовувалися в дуже дикий і відчайдушний спосіб або врятувати, або вбит
+                                              и. Ця історія для мене не те, про що варто писати, але вона змогла утримати мою ув
+                                              агу, що мені важко зробити з серіалом, який я вважаю посереднім, тому для мене він, мабу
+                                              ть, високий середній. 
+                                             Я також відчуваю слабкість до історій, які не дають в
+                                             ідчуття напруги, що ніхто не застрахований від смерті, і навіть сюжетні обладунки...
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end customer -->
+
+      <!--  contact -->
+      <div class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Contact Now</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end contact -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <ul class="social_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>About Us</h3>
+                     <ul class="about_us">
+                        <li>Ukraine<br>Lviv<br>Manga Store</li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>Contact Us</h3>
+                     <ul class="conta">
+                        <li>Oleksandr<br>Lazurko<br>aka s6nch0s</li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <form class="bottom_form">
+                        <h3>Letter for information</h3>
+                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="sub_btn">subscribe</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2023 All Rights Reserved. Design by s6nch0s</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
 </html>
+
